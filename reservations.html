@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="pacific.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Forms fields">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reservations</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <h1>Activities at Pacific Trails</h1>
+        <div id="nav">
+            <p class="inner-nav"><strong><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="yurts.html">Yurts</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="activities.html">Activities</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="reservations.html">Reservations</a></strong></p>
+        </div>
+        <form action="contact.php">
+            <fieldset id="info">
+                <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" id="firstname" required maxlength="15"> <br><br>
+                <label for="lastname">Last Name</label><br>
+                <input type="text" name="lastname" id="lastname" maxlength="25"> <br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required> <br><br>
+                <label for="phone">Telephone</label><br>
+                <input type="tel" name="phone" id="phone"> <br><br>
+                <label for="guests">Number of Membership</label><br>
+                <input type="number" name="guests" id="guests"> <br><br>
+                <label for="comment">Comment</label><br>
+                <input type="text" name="comment" id="comment">
+                <br><br>
+                <button>Submit</button>
+                <button>Clear</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
